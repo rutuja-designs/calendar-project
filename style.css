@@ -1,0 +1,73 @@
+ 
+
+body{
+   
+    margin: 0;
+    padding: 0;
+    display: flex;
+    /* justify-content:space-between ; */
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap:100 px; 
+   
+    height: 100vh;
+    align-items: center;
+    font-family: cursive;
+    background-color: rgb(168, 242, 243);
+
+}
+
+.heading{
+    
+    font-size: 60px;
+}
+
+
+.calender-container{
+    padding: 0;
+    background-color: aliceblue;
+    width: 300px;
+    border: 3px solid rgb(17, 17, 17);
+    /* height: 320px; */
+    text-align: center;
+    border-radius:15px ;
+    box-shadow:  0 4px 8 px rgba(0,0,0,.3);
+    overflow: hidden;
+}
+
+
+.month-name{
+    margin: 0;
+    background-color: rgb(2, 40, 77);
+    color: azure;
+    padding:15px ;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.day-name{
+    padding: auto;
+     margin: 0;
+    font-weight: bold;
+    color: gray;
+
+}
+
+
+.day-number{
+    padding: auto;
+    margin: 0;
+    font-weight: bold;
+    font-size: 80px;
+    color: black;
+
+
+
+}
+
+.year{
+    padding: auto;
+    margin: 0;
+    font-weight: bold;
+    color: gray;
+}
